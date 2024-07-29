@@ -1,0 +1,73 @@
+---
+
+---
+
+<nav class="navbar">
+  <div class="navbar-logo">
+    <a href="/">
+      <img src="/public/logo-braynSramos.svg" alt="logo" />
+    </a>
+  </div>
+  <div class="navbar-tex">
+    <ul class="is-active">
+      <li><a href="/">SOBRE MÍ</a></li>
+      <li><a href="/">PROYECTOS</a></li>
+      <li><a href="/">SERVICIOS</a></li>
+      <li><a href="/">h<i></i></a></li>
+      <li><a href="/">a<i></i></a></li>
+      <li><a href="/">l<i></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+<style>
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .navbar-logo img {
+    height: 40px; /* Ajusta este valor según el tamaño deseado del logo */
+  }
+
+  .navbar .navbar-tex ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar .navbar-tex li {
+    margin-left: 20px;
+  }
+
+  .navbar .navbar-tex li a {
+    display: flex;
+    align-items: center;
+    color: #1a1850;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar .navbar-tex li a:hover {
+    color: #e5e52e;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-style: wavy;
+    text-underline-offset: 7px;
+  }
+  .navbar .navbar-tex li a i {
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+  }
+</style>
