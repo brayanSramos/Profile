@@ -31,6 +31,7 @@ const { title } = Astro.props;
       rgb(var(--accent-light)) 30%,
       rgb(0, 0, 0) 60%
     );
+    
   }
   @font-face {
     font-family: "leaguegothic-italic-webfont";
@@ -48,4 +49,33 @@ const { title } = Astro.props;
   html {
     font-family: "leaguegothic-italic-webfont", system-ui, sans-serif;
   }
+  body {
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+  }
+  /* 📌 Ocultar el icono oscuro por defecto */
+  .dark-mode {
+    background-color: #1a1850;
+    color: white;
+}
+/* Ocultar el icono oscuro por defecto */
+#darkIcon {
+    display: none;
+}
+/* Mostrar el icono claro en modo claro */
+.light-mode #lightIcon {
+    display: inline;
+}
+
+/* Mostrar el icono oscuro en modo oscuro */
+.dark-mode #darkIcon {
+    display: inline;
+}
+
+/* Opcional: estilo para el botón y el icono */
+#darkModeToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 </style>
