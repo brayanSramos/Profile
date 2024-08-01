@@ -1,6 +1,8 @@
 import React from "react";
 import { Card, CardHeader, CardBody, CardFooter, Image, Button } from "@nextui-org/react";
 
+
+
 export default function App() {
     return (
         <section style={{ padding: '15rem 0 15rem' }}>
@@ -8,6 +10,7 @@ export default function App() {
                 <h4 style={{ textAlign: 'center', fontSize: '6rem' }}>Proyectos 👾</h4>
             </div>
             <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
+
                 <Card className="col-span-12 sm:col-span-4 h-[300px]">
                     <CardHeader className="absolute z-10 top-1 flex-col !items-start">
                         <p className="text-right text-white/100 uppercase font-bold ">AgroSys 🌱</p>
@@ -15,6 +18,7 @@ export default function App() {
                     </CardHeader>
                     <img className="z-0 w-full h-full object-cover" src="https://nextui.org/images/card-example-4.jpeg" alt="Card background" />
                 </Card>
+
                 <Card className="col-span-12 sm:col-span-4 h-[300px]">
                     <CardHeader className="absolute z-10 top-1 flex-col !items-start">
                         <p className="text-right text-white uppercase font-bold">Plant a tree</p>
@@ -66,6 +70,35 @@ export default function App() {
                         <Button radius="full" size="sm">Proyecto</Button>
                     </CardFooter>
                 </Card>
+
+
+                <Card className="col-span-12 sm:col-span-4 h-[300px]">
+                    <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+                        <p className="text-right text-white/100 uppercase font-bold ">AgroSys 🌱</p>
+                        <h4 className="text-white/100 font-medium text-large">App para precios de productos agropecuarios</h4>
+                    </CardHeader>
+                    <img className="z-0 w-full h-full object-cover" src="https://nextui.org/images/card-example-4.jpeg" alt="Card background" />
+                </Card>
+                <Card className="col-span-12 sm:col-span-4 h-[300px]">
+                    <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+                        <p className="text-right text-white uppercase font-bold">Plant a tree</p>
+                        <h4 className="text-white/100 font-medium text-large">Contribute to the planet</h4>
+                    </CardHeader>
+                    <img className="z-0 w-full h-full object-cover" src="https://nextui.org/images/card-example-3.jpeg" alt="Card background" />
+                </Card>
+                <Card className="col-span-12 sm:col-span-4 h-[300px]">
+                    <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+                        <p className="text-tiny text-white/100 uppercase font-bold">Supercharged</p>
+                        <h4 className="text-white/100 font-medium text-large">Creates beauty like a beast</h4>
+                    </CardHeader>
+                    <img className="z-0 w-full h-full object-cover" src="https://nextui.org/images/card-example-2.jpeg" alt="Card background" />
+                </Card>
+
+
+
+
+
+
             </div>
         </section>
     );
