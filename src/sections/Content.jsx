@@ -1,24 +1,26 @@
 import React from "react";
 export const Content = () => (
     <div>
+        <br />
+        <b>Full Stack Developer</b>
         <p>
-            Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt 
-            aute id consequat veniam incididunt duis in sint irure nisi. Mollit officia cillum 
-            Lorem ullamco minim nostrud elit officia tempor esse quis.
+            Full Stack Developer 👨‍💻 con experiencia en el desarrollo de aplicaciones web y móviles.
+            Mi lenguaje favorito es JavaScript, y también uso Python y PHP. Trabajo con frameworks como React,
+            React Native y Astro, así como con CMS como WordPress. y también uso Python y PHP.
+            Trabajo con frameworks como React, React Native y Astro, así como con CMS como WordPress.
         </p>
+        <br />
+        <b>Experiencia:</b>
+        <b>2 años </b>
         <p>
-            Sunt ad dolore quis aute consequat. Magna exercitation reprehenderit magna aute 
-            tempor cupidatat consequat elit dolor adipisicing. Mollit dolor eiusmod sunt ex 
-            incididunt cillum quis. Velit duis sit officia eiusmod Lorem aliqua enim laboris 
-            do dolor eiusmod. Et mollit incididunt nisi consectetur esse laborum eiusmod 
-            pariatur proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
+            2 años de experiencia y trabajo de manera independiente bajo la marca "Responsive Design".
+            Me gusta trabajar en equipo y aprender cosas nuevas. Me apasiona el diseño, especialmente los
+            temas de UX y UI, los cuales considero esenciales para crear experiencias de usuario intuitivas
+            y atractivas. Además, manejo muy bien Adobe Illustrator, Adobe Photoshop, Adobe XD y Figma. 🤖
         </p>
+        <br />
         <p>
-            Est velit labore esse esse cupidatat. Velit id elit consequat minim. 
-            Mollit enim excepteur ea laboris adipisicing aliqua proident occaecat 
-            do do adipisicing adipisicing ut fugiat. Consequat pariatur ullamco 
-            aute sunt esse. Irure excepteur eu non eiusmod. Commodo commodo et 
-            ad ipsum elit esse pariatur sit adipisicing sunt excepteur enim.
+            Amante de la tecnología👾, la naturaleza 🦥 y la agricultura🌱.
         </p>
     </div>
 );
