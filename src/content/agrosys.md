@@ -1,7 +1,9 @@
 ---
-title: "AgroSys 🌱🌱"
+titleAgro: "AgroSys🌱"
 description: "Precios y abastecimiento agropecuario."
+dos: "claro"
 imga: "https://nextui.org/images/card-example-4.jpeg"
+link: "www.misdata.com"
 ---
 
 # Agrosys

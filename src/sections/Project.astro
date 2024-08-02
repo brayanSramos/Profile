@@ -1,0 +1,20 @@
+---
+import Crdpy from '@components/Crdpy.jsx';
+const allPosts = await Astro.glob('../content/*.md');
+--- 
+     <section style={{ padding: '15rem 0 15rem' }}>
+            <div>
+                <h4 style={{ textAlign: 'center', fontSize: '6rem' }}>Proyectos 👾</h4>
+            </div>
+
+            {
+                allPosts.map((item) => (
+                  <Crdpy
+                  titleAgro={item?.frontmatter?.titleAgro}
+                    description={item?.frontmatter?.description}
+                    dos={item?.frontmatter?.dos}
+                    imga={item?.frontmatter?.imga}
+                  />
+                ))
+              }
+        </section>
