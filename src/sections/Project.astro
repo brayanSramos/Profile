@@ -1,20 +1,72 @@
 ---
-import Crdpy from '@components/Crdpy.jsx';
-const allPosts = await Astro.glob('../content/*.md');
---- 
-     <section style={{ padding: '15rem 0 15rem' }}>
-            <div>
-                <h4 style={{ textAlign: 'center', fontSize: '6rem' }}>Proyectos 👾</h4>
-            </div>
+import Crdpy from "../components/Crdpy.jsx";
+import Crdpy2 from "../components/Crdpy2.jsx";
+import Crdpy3 from "../components/Crdpy3.jsx";
 
-            {
-                allPosts.map((item) => (
-                  <Crdpy
-                  titleAgro={item?.frontmatter?.titleAgro}
-                    description={item?.frontmatter?.description}
-                    dos={item?.frontmatter?.dos}
-                    imga={item?.frontmatter?.imga}
-                  />
-                ))
-              }
-        </section>
+const allPost = await Astro.glob("../content/*.md");
+//const allPosts = await Astro.glob("../content/agrosys.md");
+const allPosts1 = await Astro.glob("../content/Content-wordpress/*.md");
+//const allPosts2 = await Astro.glob("../content/Content-wordpress/Content-wordpress-1/*.md");
+//const allPostsR = await Astro.glob("../content/responsivedesign.md");
+---
+
+<section class="Sec">
+  <div>
+    <h4 class="titels">Mis proyectos 👾</h4>
+  </div>
+  {
+    allPost.map((item) => (
+      <Crdpy
+        title={item?.frontmatter?.title}
+        description={item?.frontmatter?.description}
+        imga={item?.frontmatter?.imga}
+      />
+    ))
+  }
+  {
+    /*{
+    allPosts.map((item) => (
+      <Crdpy
+        titleAgro={item?.frontmatter?.titleAgro}
+        description={item?.frontmatter?.description}
+        imga={item?.frontmatter?.imga}
+      />
+    ))
+  }
+  {
+    allPostsV.map((item) => (
+      <Crdpy2
+        titlevicamp={item?.frontmatter?.titlevicamp}
+        descriptionvicamp={item?.frontmatter?.descriptionvicamp}
+        imgavicamp={item?.frontmatter.imgavicamp}
+        linkvicamp={item?.frontmatter?.linkvicamp}
+      />
+    ))
+  }*/
+  }
+  <div>
+    <h4 class="titels">WEB WORDPRESS🖥️</h4>
+  </div>
+  {
+    allPosts1.map((item) => (
+      <Crdpy2
+        title={item?.frontmatter?.title}
+        description={item?.frontmatter?.description}
+        imga={item?.frontmatter.imga}
+        link={item?.frontmatter?.link}
+        avatar={item?.frontmatter?.avatar}
+      />
+    ))
+  }
+</section>
+
+<style>
+  .Sec {
+    padding: 15rem 0 15rem;
+  }
+  .titels {
+    text-align: center;
+    font-size: 6rem;
+    
+  }
+</style>
