@@ -6,5 +6,5 @@ import react from "@astrojs/react";//Dependecia de React-👾
 export default defineConfig({
   integrations: [tailwind(), //Configuracion de Tailwind-👾
     react()
-]
+],
 });

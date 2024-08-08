@@ -2,7 +2,14 @@ import React from "react";
 export const Content = () => (
     <div>
         <br />
-        <b>Full Stack Developer</b>
+        <h2 className="text-3xl font-bold md:text-5xl">Hola, 🖖 mi nombre es Brayn Ramos</h2>
+        <br />
+        <p>Soy un desarrollador web de Bogotá, Colombia, con amplia experiencia tanto en frontend como en backend.<br />
+         Me especializo en crear aplicaciones web y móviles, utilizando una variedad de tecnologías modernas. 
+         Además, tengo un sólido conocimiento y habilidades en WordPress.</p>
+        <br />
+        <br />
+        <b>Full Stack Developer 👾</b>
         <p>
             Full Stack Developer 👨‍💻 con experiencia en el desarrollo de aplicaciones web y móviles.
             Mi lenguaje favorito es JavaScript, y también uso Python y PHP. Trabajo con frameworks como React,

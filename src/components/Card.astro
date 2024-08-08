@@ -1,0 +1,38 @@
+---
+interface Props {
+  title: string;
+  pubDate: Date;
+  tags: string[];
+  slug: string;
+}
+
+const { title, pubDate, tags, slug } = Astro.props;
+---
+
+<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+  <img
+    alt=""
+    src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+    class="h-56 w-full object-cover"
+  />
+
+  <div class="bg-white p-4 sm:p-6">
+    <time datetime="2022-10-10" class="block text-xs text-gray-500">
+      {pubDate}
+    </time>
+
+    <a href={`/posts/${slug}`}>
+      <h3 class="mt-0.5 text-lg text-gray-900">{title}</h3>
+    </a>
+
+    <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+      {
+        tags.map((item) => (
+          <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-medium text-gray-800 mr-2">
+            {item}
+          </span>
+        ))
+      }
+    </p>
+  </div>
+</article>

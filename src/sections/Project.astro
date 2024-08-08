@@ -1,11 +1,10 @@
 ---
 import Crdpy from "../components/Crdpy.jsx";
 import Crdpy2 from "../components/Crdpy2.jsx";
-import Crdpy3 from "../components/Crdpy3.jsx";
 
-const allPost = await Astro.glob("../content/*.md");
+const allPost = await Astro.glob("../content/misproy/*.md");
 //const allPosts = await Astro.glob("../content/agrosys.md");
-const allPosts1 = await Astro.glob("../content/Content-wordpress/*.md");
+const allPosts1 = await Astro.glob("../content/web-wordpress/*.md");
 //const allPosts2 = await Astro.glob("../content/Content-wordpress/Content-wordpress-1/*.md");
 //const allPostsR = await Astro.glob("../content/responsivedesign.md");
 ---
@@ -44,21 +43,24 @@ const allPosts1 = await Astro.glob("../content/Content-wordpress/*.md");
     ))
   }*/
   }
-  <div>
-    <h4 class="titels">WEB WORDPRESS🖥️</h4>
-  </div>
-  {
-    allPosts1.map((item) => (
-      <Crdpy2
-        title={item?.frontmatter?.title}
-        description={item?.frontmatter?.description}
-        imga={item?.frontmatter.imga}
-        link={item?.frontmatter?.link}
-        avatar={item?.frontmatter?.avatar}
-      />
-    ))
-  }
 </section>
+
+<div>
+  <h4 class="titels">WEB WORDPRESS🖥️</h4>
+</div>
+{
+  allPosts1.map((post) => (
+    <Crdpy2
+      title={post?.frontmatter?.title}
+      description={post?.frontmatter?.description}
+      imga={post?.frontmatter?.imga}
+      time={post?.frontmatter?.pubDate}
+      avatar={post?.frontmatter?.avatar}
+      link={post?.frontmatter?.imga1}
+      slug={post.slug}
+    />
+  ))
+}
 
 <style>
   .Sec {
@@ -67,6 +69,5 @@ const allPosts1 = await Astro.glob("../content/Content-wordpress/*.md");
   .titels {
     text-align: center;
     font-size: 6rem;
-    
   }
 </style>

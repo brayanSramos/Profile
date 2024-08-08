@@ -1,11 +1,15 @@
 ---
-import React from "react";
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/layout/Header.astro";
 import Hero from "../sections/Hero.astro";
-import Sobremi from "../sections/Sobremi.jsx";
+import Sobremi from "../sections/Sobremi.astro";
 import Project from "../sections/Project.astro";
 import Footer from "../components/layout/Footer.astro";
+import Card from "@components/Card.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("posts");
+console.log(posts);
 ---
 
 <Layout title="braynSramos">
@@ -14,6 +18,18 @@ import Footer from "../components/layout/Footer.astro";
     <Hero />
     <Sobremi />
     <Project />
+    <ul role="list" class="link-card-grid">
+      {
+        posts.map((post) => (
+          <Card
+            title={post.data.title}
+            pubDate={post.data.pubDate}
+            tags={post.data.tags}
+            slug={post.slug}
+          />
+        ))
+      }
+    </ul>
   </main>
   <Footer />
 </Layout>
