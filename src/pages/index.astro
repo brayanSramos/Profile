@@ -4,12 +4,9 @@ import Header from "../components/layout/Header.astro";
 import Hero from "../sections/Hero.astro";
 import Sobremi from "../sections/Sobremi.astro";
 import Project from "../sections/Project.astro";
-import Footer from "../components/layout/Footer.astro";
+import Footer from "@components/layout/Footer.astro";
 import Card from "@components/Card.astro";
-import { getCollection } from "astro:content";
-
-const posts = await getCollection("posts");
-console.log(posts);
+import WpCard from "@components/cardposts/WpCard.astro";
 ---
 
 <Layout title="braynSramos">
@@ -18,18 +15,6 @@ console.log(posts);
     <Hero />
     <Sobremi />
     <Project />
-    <ul role="list" class="link-card-grid">
-      {
-        posts.map((post) => (
-          <Card
-            title={post.data.title}
-            pubDate={post.data.pubDate}
-            tags={post.data.tags}
-            slug={post.slug}
-          />
-        ))
-      }
-    </ul>
   </main>
   <Footer />
 </Layout>

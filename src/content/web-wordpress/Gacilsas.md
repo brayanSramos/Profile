@@ -5,6 +5,8 @@ avatar: "https://nextui.org/images/card-example-5.jpeg"
 imga: "../public/imgwordpress/Gacilsas1Web.webp"
 pubDate: 10/08/2023
 link: "www.gacilsas.com.co Grupo aérea de Carga Internacional S.A.S."
+tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+Layout: "../../layouts/ProjLayout.astro"
 ---
 
 Descripción del Proyecto:

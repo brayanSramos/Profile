@@ -1,12 +1,14 @@
 ---
 import Crdpy from "../components/Crdpy.jsx";
 import Crdpy2 from "../components/Crdpy2.jsx";
+import WpCard from "../components/cardposts/WpCard.astro";
+
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("web-wordpress");
 
 const allPost = await Astro.glob("../content/misproy/*.md");
-//const allPosts = await Astro.glob("../content/agrosys.md");
 const allPosts1 = await Astro.glob("../content/web-wordpress/*.md");
-//const allPosts2 = await Astro.glob("../content/Content-wordpress/Content-wordpress-1/*.md");
-//const allPostsR = await Astro.glob("../content/responsivedesign.md");
 ---
 
 <section class="Sec">
@@ -22,8 +24,30 @@ const allPosts1 = await Astro.glob("../content/web-wordpress/*.md");
       />
     ))
   }
-  {
-    /*{
+</section>
+
+<div>
+  <h4 class="titels">WEB WORDPRESS🖥️</h4>
+  <ul role="list" class="link-card-grid">
+    {
+      posts.map((post) => (
+        <WpCard
+          title={post?.data?.title}
+          description={post?.data?.description}
+          avatar={post?.data?.avatar}
+          img={post?.data?.img}
+          pubDate={post?.data?.pubDate}
+          link={post?.data?.link}
+          tags={post?.data?.tags}
+          slug={post.slug}
+        />
+      ))
+    }
+  </ul>
+</div>
+
+{
+  /*{
     allPosts.map((item) => (
       <Crdpy
         titleAgro={item?.frontmatter?.titleAgro}
@@ -41,14 +65,8 @@ const allPosts1 = await Astro.glob("../content/web-wordpress/*.md");
         linkvicamp={item?.frontmatter?.linkvicamp}
       />
     ))
-  }*/
   }
-</section>
-
-<div>
-  <h4 class="titels">WEB WORDPRESS🖥️</h4>
-</div>
-{
+  {
   allPosts1.map((post) => (
     <Crdpy2
       title={post?.frontmatter?.title}
@@ -57,17 +75,33 @@ const allPosts1 = await Astro.glob("../content/web-wordpress/*.md");
       time={post?.frontmatter?.pubDate}
       avatar={post?.frontmatter?.avatar}
       link={post?.frontmatter?.imga1}
-      slug={post.slug}
     />
   ))
+}  
+  */
 }
 
 <style>
+    main {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+  }
   .Sec {
     padding: 15rem 0 15rem;
   }
   .titels {
     text-align: center;
     font-size: 6rem;
+  }
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 2rem;
+    padding: 0;
   }
 </style>

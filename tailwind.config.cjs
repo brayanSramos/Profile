@@ -1,3 +1,5 @@
+import { color } from "framer-motion";
+
 // tailwind.config.cjs
 const { nextui } = require("@nextui-org/react");
 

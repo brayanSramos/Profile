@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardFooter, Button } from "@nextui-org/react";
 
-export default function App({ title, description, link, imga, time, avatar, slug }) {
+export default function App({ title, description, link, imga, time, avatar }) {
     return (
         <div className="justify-center max-w-[900px] inline-table px-3.5 px-0.989rem">
 
@@ -15,7 +15,7 @@ export default function App({ title, description, link, imga, time, avatar, slug
                             <h4 className="text-white/100 font-medium text-large">{title}</h4>
                         </div>
                     </div>
-                    <Button radius="full" size="sm"><a href={`/posts/${slug}`}>Ver</a></Button>
+                    <Button radius="full" size="sm"><a>Ver</a></Button>
                 </CardFooter>
             </Card>
 

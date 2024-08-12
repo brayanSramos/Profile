@@ -5,6 +5,8 @@ avatar: "https://nextui.org/images/card-example-4.jpeg"
 imga: "../public/imgwordpress/donBarbiWeb.webp"
 pubDate: 09/08/2021
 link: "www.Donbarbero.com.co"
+tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+Layout: "../../layouts/ProjLayout.astro"
 ---
 
 Descripción del Proyecto:

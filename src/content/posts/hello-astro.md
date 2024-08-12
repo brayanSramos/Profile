@@ -2,7 +2,7 @@
 title: "Hello Astro"
 pubDate: 2024-05-07
 description: " Hello this is my first recommendation"
-image: "https://images.unsplash.com/photo-1682685796857-1682685796857"
+image: "../public/imgwordpress/BellatrixWeb.webp"
 tags: ["astro", "javascript"]
 ---
 

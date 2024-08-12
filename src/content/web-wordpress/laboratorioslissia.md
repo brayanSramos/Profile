@@ -5,6 +5,8 @@ avatar: "https://nextui.org/images/card-example-4.jpeg"
 imga: "../public/imgwordpress/llIWeb.webp"
 pubDate: 10/08/2023
 link: "www.laboratorioslissia.com"
+tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+Layout: "../../layouts/ProjLayout.astro"
 ---
 
 Descripción del Proyecto:

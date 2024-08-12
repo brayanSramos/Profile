@@ -5,6 +5,8 @@ avatar: "https://nextui.org/images/card-example-5.jpeg"
 imga: "../public/imgwordpress/FirstWeb.webp"
 pubDate: 13/08/2022
 link: "www.bellatrix.com.co"
+tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+Layout: "../../layouts/ProjLayout.astro"
 ---
 
 Descripción del Proyecto:

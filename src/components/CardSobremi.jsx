@@ -10,7 +10,7 @@ export default function App() {
                 <ScrollShadow hideScrollBar className="-max-w-[800px] h-[230px]">
                     <Content />
                 </ScrollShadow>
-                <Button style={{ fontSize: '1rem' }} className="text-center bg-yellow-300" >
+                <Button style={{ fontSize: '1rem' }} className="text-center bg-yellow-400">
                     sobre mí
                 </Button>
             </div>

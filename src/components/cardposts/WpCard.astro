@@ -1,0 +1,75 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  avatar: string;
+  img: string;
+  pubDate: string;
+  link: string;
+  tags: string[];
+  slug: string;
+}
+
+const { title, description, avatar, img, pubDate, link, tags, slug } =
+  Astro.props;
+
+  import Layout from "/Users/Brayn/Documents/Codigo/braynSramos/src/layouts/Layout.astro";
+---
+
+<Layout title="BraynSramos"> 
+<article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg" >
+  <img
+    alt=""
+    src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+    class="h-56 w-full object-cover"
+  />
+
+  <div class="bg-white p-4 sm:p-6">
+    <h3 class="mt-0.5 text-lg text-gray-900">{title}</h3>
+    <!-- Boto - Inicio -->
+    <div class="mt-4 mb-4">
+      <a
+        class="group relative inline-flex items-center overflow-hidden rounded bg-black px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
+        href={`/wordpress/${slug}`}
+      >
+        <span class="absolute -start-full transition-all group-hover:start-4">
+          <svg
+            class="size-5 rtl:rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </span>
+
+        <span class="text-sm font-medium transition-all group-hover:ms-4">
+          Ver más
+        </span>
+      </a>
+    </div>
+    <!-- Boto - Fin -->
+
+    <!-- tags - Inicio -->
+    <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+      {
+        tags.map((item) => (
+          <span class="inline-block bg-gray-200 rounded-full px-2 py-1 text-xs font-medium text-gray-800 mr-2">
+            {item}
+          </span>
+        ))
+      }
+    </p>
+    <!-- tags - fin -->
+
+
+  </div>
+
+</article>
+</Layout>
+

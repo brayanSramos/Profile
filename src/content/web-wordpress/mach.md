@@ -5,6 +5,8 @@ avatar: "https://nextui.org/images/card-example-5.jpeg"
 imga: "../public/imgwordpress/MachWeb.webp"
 pubDate: 10/08/2023
 link: "www.mach.com.co"
+tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+Layout: "../../layouts/ProjLayout.astro"
 ---
 
 Descripción del Proyecto:
