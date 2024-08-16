@@ -4,7 +4,7 @@ export const Content = () => (
         <br />
         <h2 className="text-3xl font-bold md:text-5xl">Hola, 🖖 mi nombre es Brayn Ramos</h2>
         <br />
-        <p>Soy un desarrollador web de Bogotá, Colombia, con amplia experiencia tanto en frontend como en backend.<br />
+        <p>Soy un desarrollador web de Bogotá, Colombia, experiencia tanto en frontend <br /> como en backend.
          Me especializo en crear aplicaciones web y móviles, utilizando una variedad de tecnologías modernas. 
          Además, tengo un sólido conocimiento y habilidades en WordPress.</p>
         <br />

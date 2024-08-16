@@ -1,12 +1,14 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Card from "../../components/Card.astro";
+import CardPy from "../../components/cardposts/CardPy.astro";
 import { getCollection } from "astro:content";
 
-const posts = await getCollection("posts");
+const posts = await getCollection("proyectos");
+const { title } = Astro.props;
+console.log(title);
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title={title}>
   <main>
     <svg
       class="astro-a"
@@ -40,10 +42,15 @@ const posts = await getCollection("posts");
     <ul role="list" class="link-card-grid">
       {
         posts.map((post) => (
-          <Card
+          <CardPy
             title={post?.data?.title}
+            nomPro={post?.data?.nomPro}
+            description={post?.data?.description}
+            link={post?.data?.link}
             pubDate={post?.data?.pubDate}
+            avatar={post?.data?.avatar}
             tags={post?.data?.tags}
+            image={post?.data?.image}
             slug={post.slug}
           />
         ))

@@ -1,12 +1,17 @@
 ---
 title: "First Logistics🌐"
+nomComp: "First Logistics Cargo International SAS"
 description: "Agentes de carga especializados en operaciones de logística internacional con amplia experiencia en el mercado logístico colombiano."
-avatar: "https://nextui.org/images/card-example-5.jpeg"
+avatar: "../public/imgwordpress/FirstLogoInicio.webp"
+logo: "../public/imgwordpress/FirstLogo.webp"
+imgaPost: "../public/imgwordpress/FirstPost.webp"
 imga: "../public/imgwordpress/FirstWeb.webp"
-pubDate: 2024-05-07
-link: "www.bellatrix.com.co"
-tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+link: "https://firstcargo.com.co/"
+titleweb: "www.firstcargo.com.co"
+linkQuines: "https://firstcargo.com.co/nosotros/"
+tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]
 layout: "../../layouts/ProjLayout.astro"
 ---
-Descripción del Proyecto:
-Agrosys es una innovadora aplicación desarrollada en React Native para dispositivos Android y iOS. Esta herramienta recopila datos del Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA) del DANE, específicamente del Componente de Precios Mayoristas. Agrosys facilita el acceso y visualización de información crítica sobre precios y abastecimiento en el sector agropecuario, permitiendo a los usuarios tomar decisiones informadas y optimizar sus operaciones agrícolas.
+## Quiénes somos
+
+**First Logistics Cargo International SAS,** es una empresa especializada en la prestación de servicios de logística de carga internacional, caracterizada por su transparencia, eficiencia y rapidez, con gran trayectoria en el mercado logístico colombiano. Contamos con un equipo de profesionales calificados para llevar a cabo todo tipo de operaciones y una amplia comunicación con nuestros clientes.First Logistics Cargo International SAS, es una empresa especializada en la prestación de servicios de logística de carga internacional, caracterizada por su transparencia, eficiencia y rapidez, con gran trayectoria en el mercado logístico colombiano. Contamos con un equipo de profesionales calificados para llevar a cabo todo tipo de operaciones y una amplia comunicación con nuestros clientes.

@@ -1,8 +1,13 @@
 ---
-title: "VICAMP🪴"
-description: "Ayuada para agropecuario."
-imga: "https://nextui.org/images/card-example-4.jpeg"
-link: "www.VICAMP🪴.com"
+title: "BraynSramos"
+nomPro: "Responsive Design ✒️"
+description: "Empresas de diseño web"
+link: "www.ResponsiveDesigns.com.co"
+pubDate: 2024-05-07
+avatar: "https://nextui.org/images/card-example-5.jpeg"
+image: "https://nextui.org/images/card-example-4.jpeg"
+tags: ["astro", "javascript"]
+layout: "../../layouts/ProjLayout.astro"
 ---
 
 # Agrosys

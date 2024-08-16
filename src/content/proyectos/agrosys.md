@@ -1,9 +1,13 @@
 ---
-title: "AgroSys🌱"
-description: "Precios y abastecimiento agropecuario."
-avatar: "https://nextui.org/images/card-example-5.jpeg"
-imga: "https://nextui.org/images/card-example-4.jpeg"
+title: "BraynSramos"
+nomPro: "AgroSys🌱"
+description: "Agrosys es una innovadora app en React Native para Android e iOS, que recopila datos del SIPSA del DANE sobre precios agropecuarios, facilitando decisiones informadas."
 link: "www.AgroSys.com.co"
+pubDate: 2024-05-07
+avatar: "https://nextui.org/images/card-example-5.jpeg"
+image: "https://nextui.org/images/card-example-4.jpeg"
+tags: ["React Native", "JavaScript", "CSS", "Tewilnd", "EXPO", "API DANE"]
+layout: "../../layouts/ProjLayout.astro"
 ---
 
 # Agrosys

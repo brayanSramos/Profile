@@ -1,13 +1,13 @@
 ---
-import Crdpy from "../components/Crdpy.jsx";
-import Crdpy2 from "../components/Crdpy2.jsx";
+import CardPy from "../components/cardposts/CardPy.astro";
 import WpCard from "../components/cardposts/WpCard.astro";
 
 import { getCollection } from "astro:content";
 
 const posts = await getCollection("web-wordpress");
+const postsp = await getCollection("proyectos");
 
-const allPost = await Astro.glob("../content/misproy/*.md");
+const allPost = await Astro.glob("../content/proyectos/*.md");
 const allPosts1 = await Astro.glob("../content/web-wordpress/*.md");
 ---
 
@@ -16,11 +16,17 @@ const allPosts1 = await Astro.glob("../content/web-wordpress/*.md");
     <h4 class="titels">Mis proyectos 👾</h4>
   </div>
   {
-    allPost.map((item) => (
-      <Crdpy
-        title={item?.frontmatter?.title}
-        description={item?.frontmatter?.description}
-        imga={item?.frontmatter?.imga}
+    postsp.map((post) => (
+      <CardPy
+        title={post?.data?.title}
+        nomPro={post?.data?.nomPro}
+        description={post?.data?.description}
+        link={post?.data?.link}
+        pubDate={post?.data?.pubDate}
+        avatar={post?.data?.avatar}
+        image={post?.data?.image}
+        tags={post?.data?.tags}
+        slug={post.slug}
       />
     ))
   }
@@ -35,9 +41,6 @@ const allPosts1 = await Astro.glob("../content/web-wordpress/*.md");
           title={post?.data?.title}
           description={post?.data?.description}
           avatar={post?.data?.avatar}
-          img={post?.data?.img}
-          pubDate={post?.data?.pubDate}
-          link={post?.data?.link}
           tags={post?.data?.tags}
           slug={post.slug}
         />
@@ -82,7 +85,7 @@ const allPosts1 = await Astro.glob("../content/web-wordpress/*.md");
 }
 
 <style>
-    main {
+  main {
     margin: auto;
     padding: 1rem;
     width: 800px;

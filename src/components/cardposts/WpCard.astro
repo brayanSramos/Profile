@@ -3,15 +3,11 @@ interface Props {
   title: string;
   description: string;
   avatar: string;
-  imga: string;
-  pubDate: string;
-  link: string;
   tags: string[];
   slug: string;
 }
 
-const { title, description, avatar, imga, pubDate, link, tags, slug } =
-  Astro.props;
+const { title, avatar, tags, slug } = Astro.props;
 
 import Layout from "/Users/Brayn/Documents/Codigo/braynSramos/src/layouts/Layout.astro";
 ---

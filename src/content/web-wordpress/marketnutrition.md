@@ -1,12 +1,17 @@
 ---
 title: "Market Nutrition 🏃🏽"
+nomComp: "Market Nutrition tienda de suplementos deportivos."
 description: "Market Nutrition tienda de suplementos deportivos."
-avatar: "https://nextui.org/images/card-example-5.jpeg"
+avatar: "../public/imgwordpress/MarkLogoInicio.webp"
+logo: "../public/imgwordpress/MarkLogo.webp"
+imgaPost: "../public/imgwordpress/MarkPost.webp"
 imga: "../public/imgwordpress/MarkWeb.webp"
-pubDate: 2024-05-07
-link: "www.marketnutrition.com.co"
-tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+link: "https://www.marketnutrition.com.co/"
+titleweb: "www.marketnutrition.com.co"
+linkQuines: "https://www.marketnutrition.com.co/quienes-somos/"
+tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]
 layout: "../../layouts/ProjLayout.astro"
 ---
-Descripción del Proyecto:
-Agrosys es una innovadora aplicación desarrollada en React Native para dispositivos Android y iOS. Esta herramienta recopila datos del Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA) del DANE, específicamente del Componente de Precios Mayoristas. Agrosys facilita el acceso y visualización de información crítica sobre precios y abastecimiento en el sector agropecuario, permitiendo a los usuarios tomar decisiones informadas y optimizar sus operaciones agrícolas.
+## ¿Quiénes somos?
+
+**Somos una de las empresas de venta y comercialización de nutrición deportiva más completa de Colombia;** Llevamos en el mercado 9 años, brindando la mejor experiencia y atención a nuestros clientes a nivel nacional, para mejorar la salud y calidad de vida con nuestros productos.
