@@ -7,6 +7,8 @@ logo: "../public/imgwordpress/GacilsasLogo.webp"
 imgaPost: "../public/imgwordpress/GacilsasPost.webp"
 imga: "../public/imgwordpress/Gacilsas1Web.webp"
 link: "https://gacilsas.com/"
+face: "https://www.facebook.com/people/Market-Nutrition/100051715185717/"
+ins: "https://www.instagram.com/market_nutrition/?hl=es"
 titleweb: "www.gacilsas.com"
 linkQuines: "https://gacilsas.com/nosotros/"
 tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]

@@ -7,6 +7,8 @@ logo: "../public/imgwordpress/FirstLogo.webp"
 imgaPost: "../public/imgwordpress/FirstPost.webp"
 imga: "../public/imgwordpress/FirstWeb.webp"
 link: "https://firstcargo.com.co/"
+face: "https://www.facebook.com/people/Market-Nutrition/100051715185717/"
+ins: "https://www.instagram.com/market_nutrition/?hl=es"
 titleweb: "www.firstcargo.com.co"
 linkQuines: "https://firstcargo.com.co/nosotros/"
 tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]

@@ -7,6 +7,8 @@ logo: "../public/imgwordpress/MachLogo.webp"
 imgaPost: "../public/imgwordpress/MachPost.webp"
 imga: "../public/imgwordpress/MachWeb.webp"
 link: "https://mach.com.co/"
+face: "https://www.facebook.com/people/Market-Nutrition/100051715185717/"
+ins: "https://www.instagram.com/market_nutrition/?hl=es"
 titleweb: "www./mach.com.co"
 linkQuines: "https://mach.com.co/nosotros/"
 tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]

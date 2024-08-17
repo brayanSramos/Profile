@@ -7,6 +7,8 @@ logo: "../public/imgwordpress/LLILogo.webp"
 imgaPost: "../public/imgwordpress/LLIPost.webp"
 imga: "../public/imgwordpress/llIWeb.webp"
 link: "https://laboratorioslissia.com/"
+face: "https://www.facebook.com/people/Market-Nutrition/100051715185717/"
+ins: "https://www.instagram.com/market_nutrition/?hl=es"
 titleweb: "www.laboratorioslissia.com"
 linkQuines: "https://laboratorioslissia.com/nosotros/"
 tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]

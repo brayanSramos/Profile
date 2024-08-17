@@ -7,6 +7,8 @@ logo: "../public/imgwordpress/donBarbiLogo.webp"
 imgaPost: "../public/imgwordpress/donBarbiPost.webp"
 imga: "../public/imgwordpress/donBarbiWeb.webp"
 link: "https://donbarbero.com.co/"
+face: "https://www.facebook.com/people/Market-Nutrition/100051715185717/"
+ins: "https://www.instagram.com/market_nutrition/?hl=es"
 titleweb: "www.donbarbero.com.co"
 linkQuines: "https://donbarbero.com.co/"
 tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]

@@ -7,6 +7,8 @@ logo: "../public/imgwordpress/MarkLogo.webp"
 imgaPost: "../public/imgwordpress/MarkPost.webp"
 imga: "../public/imgwordpress/MarkWeb.webp"
 link: "https://www.marketnutrition.com.co/"
+face: "https://www.facebook.com/people/Market-Nutrition/100051715185717/"
+ins: "https://www.instagram.com/market_nutrition/?hl=es"
 titleweb: "www.marketnutrition.com.co"
 linkQuines: "https://www.marketnutrition.com.co/quienes-somos/"
 tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]
