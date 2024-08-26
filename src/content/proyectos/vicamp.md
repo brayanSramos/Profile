@@ -1,17 +1,17 @@
 ---
 title: "BraynSramos"
 nomPro: "VICAMP🪴"
-description: "Ayuada para agropecuario."
-link: "www.VICAMP🪴.com"
+description: "Vicamp es una aplicación diseñada para brindar apoyo al sector agropecuario, facilitando la gestión y optimización de las tareas agrícolas."
+link: "https://github.com/brayanSramos/VICAMP"
 pubDate: 2024-05-07
-avatar: "https://nextui.org/images/card-example-5.jpeg"
-image: "https://nextui.org/images/card-example-4.jpeg"
+avatar: "https://images.unsplash.com/photo-1559556064-4161b6be179b?q=80&w=1635&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+image: "@reiseuhu de unsplash.com"
 tags: ["astro", "javascript"]
 layout: "../../layouts/ProyLayout.astro"
 ---
 
-## Agrosys
+## Vicamp
 
-## Descripción del Proyecto: 
+### Descripción del Proyecto:
 
-Agrosys es una innovadora aplicación desarrollada en React Native para dispositivos Android y iOS. Esta herramienta recopila datos del Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA) del DANE, específicamente del Componente de Precios Mayoristas. Agrosys facilita el acceso y visualización de información crítica sobre precios y abastecimiento en el sector agropecuario, permitiendo a los usuarios tomar decisiones informadas y optimizar sus operaciones agrícolas.
+Vicamp es una aplicación diseñada para brindar apoyo al sector agropecuario, facilitando la gestión y optimización de las tareas agrícolas.

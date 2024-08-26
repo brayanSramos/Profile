@@ -13,26 +13,26 @@ const {
 } = Astro.props;
 ---
 
-<Layout title={title}>
+<Layout>
   <Header />
-  <section class="bg-white text-white">
+  <section class="bg-white text-white imgb">
     <div
       class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
     >
       <div class="mx-auto max-w-3xl text-center">
         <h1
-          class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+          class="bg-gradient-to-r text-[#292e3b] bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
         >
           <span class="sm:block"> {nomPro} </span>
         </h1>
 
-        <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed text-black">
+        <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed text-[#292e3b]">
           {description}
         </p>
 
         <div class="mt-4 mb-4">
           <a
-            class="group relative inline-flex items-center overflow-hidden rounded px-8 py-3 text-white bg-black focus:outline-none focus:ring active:bg-black"
+            class="group relative inline-flex items-center overflow-hidden rounded px-8 py-3 text-white bg-[#292e3b] focus:outline-none focus:ring active:bg-black"
             href={link}
           >
             <span
@@ -52,46 +52,46 @@ const {
           <ul class="mt-10 flex justify-center gap-6 md:gap-8">
             <li>
               <a
-                href=""
+                href="https://x.com/BraynSRamos"
                 rel="noreferrer"
                 target="_blank"
                 class="text-gray-700 transition hover:text-gray-700/75"
               >
-                <TwitterIcon class="h-6 w-6" /></a
+                <TwitterIcon class="h-6 w-6 fill-[#292e3b]" /></a
               >
             </li>
 
             <li>
               <a
-                href=""
+                href="https://www.linkedin.com/in/braynsramos/"
                 rel="noreferrer"
                 target="_blank"
                 class="text-gray-700 transition hover:text-gray-700/75"
               >
-                <LinkedinIcon class="h-6 w-6" />
+                <LinkedinIcon class="h-6 w-6 fill-[#292e3b]" />
               </a>
             </li>
 
             <li>
               <a
-                href=""
+                href="https://www.instagram.com/braynsramos/"
                 rel="noreferrer"
                 target="_blank"
                 class="text-gray-700 transition hover:text-gray-700/75"
               >
-                <InstagramIcon class="h-6 w-6" /></a
+                <InstagramIcon class="h-6 w-6 fill-[#292e3b]" /></a
               >
             </li>
 
             <li>
               <a
-                href=""
+                href="https://discord.com"
                 rel="noreferrer"
                 target="_blank"
                 class="text-gray-700 transition hover:text-gray-700/75"
               >
-                <DiscordIcon class="h-6 w-6" />
-              </a>
+                <DiscordIcon class="h-6 w-6 fill-[#292e3b]" /></a
+              >
             </li>
           </ul>
           <!-- Icon redes📱Final -->
@@ -101,3 +101,9 @@ const {
   </section>
   <Footer />
 </Layout>
+
+<style>
+  .imgb {
+    background-image: url(/public/fondProy.svg);
+  }
+</style>

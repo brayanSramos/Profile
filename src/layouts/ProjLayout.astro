@@ -23,7 +23,7 @@ const {
 } = Astro.props;
 ---
 
-<Layout title={title}>
+<Layout>
   <Header />
   <section class="relative bg-cover bg-center bg-no-repeat imgb">
     <img
@@ -69,13 +69,15 @@ const {
             class="colorS hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16"
           ></span>
           <div class="p-8 sm:p-16 lg:p-24">
-            <h2 class="colorB text-2xl font-bold sm:text-3xl">{nomComp}</h2>
+            <h2 class="text-[#e5e52e] text-2xl font-bold sm:text-3xl">
+              {nomComp}
+            </h2>
             <p class="colorB mt-4">
               <slot />
             </p>
             <div class="mt-4 mb-4">
               <a
-                class="colorB group relative inline-flex items-center overflow-hidden rounded px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
+                class="colorB group relative inline-flex items-center overflow-hidden rounded px-8 py-3 text-white focus:outline-none focus:ring active:bg-[#e5e52e]"
                 href={link}
               >
                 <span
@@ -110,29 +112,26 @@ const {
 
   <footer class="bg-gray-100 imgbf">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-      <div class="flex justify-center text-teal-600">
+      <div class="flex justify-center text-[#292e3b]">
         <img src={logo} alt={title} width="300" height="300" />
       </div>
 
       <p
-        class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500"
+        class="mx-auto mt-6 max-w-md text-center leading-relaxed text-[#292e3b]"
       >
         {description}
       </p>
 
       <ul class="mt-2 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
         <li>
-          <a
-            class="text-gray-700 transition hover:text-gray-700/75"
-            href={link}
-          >
+          <a class="text-[#292e3b] transition hover:text-[#e5e52e]" href={link}>
             {titleweb}
           </a>
-        </li>s
+        </li>
 
         <li>
           <a
-            class="text-gray-700 transition hover:text-gray-700/75"
+            class="text-[#292e3b] transition hover:text-[#e5e52e]"
             href={linkQuines}
           >
             Sobre nosotros
@@ -147,10 +146,10 @@ const {
             href={face}
             rel="noreferrer"
             target="_blank"
-            class="text-gray-700 transition hover:text-gray-700/75"
+            class="text-gray-700 transition hover:text-[#e5e52e]"
           >
             <span class="sr-only">Facebook</span>
-            <FacebookIcon class="h-6 w-6" />
+            <FacebookIcon class="h-6 w-6 fill-[#292e3b]" />
           </a>
         </li>
 
@@ -159,10 +158,10 @@ const {
             href={ins}
             rel="noreferrer"
             target="_blank"
-            class="text-gray-700 transition hover:text-gray-700/75"
+            class="text-gray-700 transition hover:text-[#e5e52e]"
           >
             <span class="sr-only">Instagram</span>
-            <InstagramIcon class="h-6 w-6" /></a
+            <InstagramIcon class="h-6 w-6 fill-[#292e3b]" /></a
           >
         </li>
       </ul>
@@ -174,21 +173,21 @@ const {
 
 <style>
   .imgb {
-    background-image: url(../../../public/ttten.svg);
+    background-image: url(/public/ttten.svg);
   }
 
   .imgbf {
-    background-image: url(../../../public/fonCar.svg);
+    background-image: url(/public/fonCar.svg);
   }
 
   .colorS {
-    background-color: rgb(26, 24, 80);
+    background-color: #292e3b;
   }
   .colorT {
-    color: #1a1850;
+    color: #292e3b;
   }
   .colorText {
-    color: #1a1850;
+    color: #292e3b;
   }
   .colorB {
     color: #ffffff;
