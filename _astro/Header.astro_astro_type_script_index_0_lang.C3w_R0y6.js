@@ -1,0 +1,1 @@
+const t=document.querySelector("#switchOn"),c=document.querySelector("#switchOff"),s=document.querySelector("#toggle-switch");let e=!1;s.addEventListener("click",()=>{e=!e,t.classList.toggle("hidden",!e),c.classList.toggle("hidden",e)});
