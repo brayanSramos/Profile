@@ -24,7 +24,7 @@ Mis lenguajes favoritos son `JavaScript`, `Python` y `PHP`, es muy importante te
 ```js
 const Proyectos = [
   { name: "🌱AgroSys", url: " www.github.com/brayanSramos/AgroSys " },
-  { name: "📘",  url: "" },
+  { name: "📘 ", url: "" },
   { name: "📒 ", url: "" },
   { name: "📓 ", url: "" },
   { name: "🎁 ", url: "" }
