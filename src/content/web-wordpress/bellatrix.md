@@ -1,20 +1,20 @@
 ---
 title: "Bellatrix 🦇"
-description: "Tienda online de ropa gotica"
-avatar: "https://nextui.org/images/card-example-5.jpeg"
-imga: "../public/imgwordpress/BellatrixWeb.webp"
-pubDate: 2024-05-07
-link: "www.bellatrix.com.co"
-tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+nomComp: "Bellatrix"
+description: "Bellatrix, destacamos el estilo único de cada chica. Nos especializamos en moda gótica, ofreciendo prendas que combinan elegancia y una actitud audaz."
+avatar: "/BellatrixLogoInicio.webp"
+logo: "/BellatrixLogo.webp"
+imgaPost: "/BellatrixPost.webp"
+imga: "/BellatrixWeb.webp"
+link: "https://bellatrix.com.co/"
+face: "https://www.facebook.com/people/Market-Nutrition/100051715185717/"
+ins: "https://www.instagram.com/market_nutrition/?hl=es"
+titleweb: "www.Bellatrix.com.co"
+linkQuines: "https://bellatrix.com.co/"
+tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]
 layout: "../../layouts/ProjLayout.astro"
 ---
 
-Agrosys es una innovadora aplicación desarrollada en React Native para dispositivos Android y iOS. Esta herramienta recopila datos del Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA) del DANE, específicamente del Componente de Precios Mayoristas. Agrosys facilita el acceso y visualización de información crítica sobre precios y abastecimiento en el sector agropecuario, permitiendo a los usuarios tomar decisiones informadas y optimizar sus operaciones agrícolas
+## Quiénes somos
 
-Agrosys es una innovadora aplicación desarrollada en React Native para dispositivos Android y iOS. Esta herramienta recopila datos del Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA) del DANE, específicamente del Componente de Precios Mayoristas. Agrosys facilita el acceso y visualización de información crítica sobre precios y abastecimiento en el sector agropecuario, permitiendo a los usuarios tomar decisiones informadas y optimizar sus operaciones agrícolas
-
-Agrosys es una innovadora aplicación desarrollada en React Native para dispositivos Android y iOS. Esta herramienta recopila datos del Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA) del DANE, específicamente del Componente de Precios Mayoristas. Agrosys facilita el acceso y visualización de información crítica sobre precios y abastecimiento en el sector agropecuario, permitiendo a los usuarios tomar decisiones informadas y optimizar sus operaciones agrícolas
-
-
-
-
+**Bellatrix, destacamos el estilo único de cada chica.** Nos especializamos en moda gótica, ofreciendo prendas que combinan elegancia y una actitud audaz. Nuestra colección está diseñada para empoderar a quienes se atreven a ser diferentes. Bellatrix es más que una tienda; es un espacio donde la moda se convierte en una declaración de fuerza y creatividad.En Bellatrix, destacamos el estilo único de cada chica. Nos especializamos en moda gótica, ofreciendo prendas que combinan elegancia y una actitud audaz. Nuestra colección está diseñada para empoderar a quienes se atreven a ser diferentes. Bellatrix es más que una tienda; es un espacio donde la moda se convierte en una declaración de fuerza y creatividad.

@@ -1,12 +1,19 @@
 ---
-title: "Don barbero ✂️"
-description: "Agrosys es una innovadora aplicación desarrollada en React Native para dispositivos Android y iOS. Esta herramienta recopila"
-avatar: "https://nextui.org/images/card-example-4.jpeg"
-imga: "../public/imgwordpress/donBarbiWeb.webp"
-pubDate: 2024-05-07
-link: "www.Donbarbero.com.co"
-tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+title: "Don Barbero ✂️"
+nomComp: "Don Barbero"
+description: "En Don Barbero, nos dedicamos a ofrecer productos de alta calidad para el cuidado personal masculino, especializados en fortalecer y revitalizar el cabello y la barba."
+avatar: "/donBarbiLogoInicio.webp"
+logo: "/donBarbiLogo.webp"
+imgaPost: "/donBarbiPost.webp"
+imga: "/donBarbiWeb.webp"
+link: "https://donbarbero.com.co/"
+face: "https://www.facebook.com/people/Market-Nutrition/100051715185717/"
+ins: "https://www.instagram.com/market_nutrition/?hl=es"
+titleweb: "www.donbarbero.com.co"
+linkQuines: "https://donbarbero.com.co/"
+tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]
 layout: "../../layouts/ProjLayout.astro"
 ---
-Descripción del Proyecto:
-Agrosys es una innovadora aplicación desarrollada en React Native para dispositivos Android y iOS. Esta herramienta recopila datos del Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA) del DANE, específicamente del Componente de Precios Mayoristas. Agrosys facilita el acceso y visualización de información crítica sobre precios y abastecimiento en el sector agropecuario, permitiendo a los usuarios tomar decisiones informadas y optimizar sus operaciones agrícolas.
+## Quiénes somos
+
+**En Don Barbero,** nos dedicamos a ofrecer productos de alta calidad para el cuidado personal masculino, especializados en fortalecer y revitalizar el cabello y la barba. Con ingredientes aprobados En Don Barbero, nos dedicamos a ofrecer productos de alta calidad para el cuidado personal masculino, especializados en fortalecer y revitalizar el cabello y la barba. Con ingredientes aprobados buscamos mejorar la experiencia del cuidado diario, ayudando a nuestros clientes a lucir y sentirse lo mejor posible. Nuestro compromiso es brindar soluciones efectivas que resalten la confianza y el estilo único de cada hombre.buscamos mejorar la experiencia del cuidado diario, ayudando a nuestros clientes a lucir y sentirse lo mejor posible. Nuestro compromiso es brindar soluciones efectivas que resalten la confianza y el estilo único de cada hombre.

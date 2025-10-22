@@ -4,30 +4,30 @@ export const Content = () => (
         <br />
         <h2 className="text-3xl font-bold md:text-5xl">Hola, 🖖 mi nombre es Brayn Ramos</h2>
         <br />
-        <p>Soy un desarrollador web de Bogotá, Colombia, con amplia experiencia tanto en frontend como en backend.<br />
-         Me especializo en crear aplicaciones web y móviles, utilizando una variedad de tecnologías modernas. 
-         Además, tengo un sólido conocimiento y habilidades en WordPress.</p>
+        <p>Soy Brayn Ramos, un desarrollador web de Bogotá, Colombia, con experiencia en frontend y backend.
+            Me especializo en la creación de aplicaciones web y móviles, utilizando tecnologías modernas
+            que abarcan tanto el desarrollo como el diseño. Tengo un sólido conocimiento en WordPress y
+            disfruto trabajando como Full Stack Developer. Mi lenguaje de programación favorito
+            es JavaScript, aunque también domino, Node.js, Python, PHP, MYSQL, PostgreSQL,
+            MongoDB, API REST, entre otros.</p>
         <br />
         <br />
         <b>Full Stack Developer 👾</b>
         <p>
-            Full Stack Developer 👨‍💻 con experiencia en el desarrollo de aplicaciones web y móviles.
-            Mi lenguaje favorito es JavaScript, y también uso Python y PHP. Trabajo con frameworks como React,
-            React Native y Astro, así como con CMS como WordPress. y también uso Python y PHP.
-            Trabajo con frameworks como React, React Native y Astro, así como con CMS como WordPress.
-        </p>
-        <br />
-        <b>Experiencia:</b>
-        <b>2 años </b>
-        <p>
-            2 años de experiencia y trabajo de manera independiente bajo la marca "Responsive Design".
-            Me gusta trabajar en equipo y aprender cosas nuevas. Me apasiona el diseño, especialmente los
-            temas de UX y UI, los cuales considero esenciales para crear experiencias de usuario intuitivas
-            y atractivas. Además, manejo muy bien Adobe Illustrator, Adobe Photoshop, Adobe XD y Figma. 🤖
+            Trabajo con frameworks como React, React Native, y Astro, y tengo 2 años de experiencia en el campo. Además,
+            he trabajado de manera independiente bajo la marca "Responsive Design". Me apasiona colaborar en equipo
+            y estoy siempre dispuesto a aprender nuevas habilidades. El diseño es una de mis grandes pasiones,
+            especialmente en lo relacionado con UX y UI, ya que creo que son fundamentales para
+            crear experiencias de usuario intuitivas y atractivas.
         </p>
         <br />
         <p>
-            Amante de la tecnología👾, la naturaleza 🦥 y la agricultura🌱.
+            También manejo herramientas de diseño como Adobe Illustrator,
+            Adobe Photoshop, Adobe XD, y Figma, siendo esta última mi favorita.🤖
+        </p>
+        <br />
+        <p>
+            <b> Apasionado </b> por la tecnología 👾, la naturaleza 🦥 y la agricultura 🌱.
         </p>
     </div>
 );

@@ -1,12 +1,19 @@
 ---
 title: "Gacilsas ✈️"
+nomComp: "GRUPO AÉREO DE CARGA INTERNACIONAL S.A.S"
 description: "Somos un operador logístico internacional."
-avatar: "https://nextui.org/images/card-example-5.jpeg"
-imga: "../public/imgwordpress/Gacilsas1Web.webp"
-pubDate: 2024-05-07
-link: "www.gacilsas.com.co Grupo aérea de Carga Internacional S.A.S."
-tags: ["Wordpress", "php", "JavaScript", "css", "htmll", "mysql",]
+avatar: "/GacilsasLogoInicio.webp"
+logo: "/GacilsasLogo.webp"
+imgaPost: "/GacilsasPost.webp"
+imga: "/Gacilsas1Web.webp"
+link: "https://gacilsas.com/"
+face: "https://www.facebook.com/people/Market-Nutrition/100051715185717/"
+ins: "https://www.instagram.com/market_nutrition/?hl=es"
+titleweb: "www.gacilsas.com"
+linkQuines: "https://gacilsas.com/nosotros/"
+tags: ["WordPress", "PHP", "JavaScript", "CSS", "HTML", "MYSQL"]
 layout: "../../layouts/ProjLayout.astro"
 ---
-Descripción del Proyecto:
-Agrosys es una innovadora aplicación desarrollada en React Native para dispositivos Android y iOS. Esta herramienta recopila datos del Sistema de Información de Precios y Abastecimiento del Sector Agropecuario (SIPSA) del DANE, específicamente del Componente de Precios Mayoristas. Agrosys facilita el acceso y visualización de información crítica sobre precios y abastecimiento en el sector agropecuario, permitiendo a los usuarios tomar decisiones informadas y optimizar sus operaciones agrícolas.
+## QUIENES SOMOS
+
+**Somos un operador logistico Internacional,** con mas de 25 años de experiencia en servicios de transporte y manejo de mercancía con cubrimiento nacional e internacional y con excelentes alianzas estratégicas para lograr como siempre una operación exitosa.

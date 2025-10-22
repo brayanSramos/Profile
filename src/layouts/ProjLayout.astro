@@ -1,44 +1,53 @@
 ---
 import Layout from "./Layout.astro";
+import Header from "@components/layout/Header.astro";
+import Footer from "@components/layout/Footer.astro";
+import FacebookIcon from "@components/icon/Facebook.astro";
+import InstagramIcon from "@components/icon/Instagram.astro";
 
 const {
-  content: { title, avatar, imga, pubDate, link, tags, description },
+  content: {
+    title,
+    nomComp,
+    avatar,
+    imga,
+    logo,
+    imgaPost,
+    description,
+    link,
+    face,
+    ins,
+    linkQuines,
+    titleweb,
+  },
 } = Astro.props;
 ---
 
-<Layout title={title}>
-  <section class="bg-gray-900 text-white">
+<Layout>
+  <Header />
+  <section class="relative bg-cover bg-center bg-no-repeat imgb">
+    <img
+      alt={title}
+      src={imgaPost}
+      class="absolute inset-0 h-full w-full object-cover"
+    />
     <div
-      class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
+      class="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
     >
-      <div class="mx-auto max-w-3xl text-center">
-        <h1
-          class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+    </div>
+
+    <div
+      class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    >
+      <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+        <strong class="block font-extrabold colorText"
+          ><img src={logo} alt={nomComp} /></strong
         >
-          {title}
-
-          <span class="sm:block"> Increase Conversion. </span>
-        </h1>
-
-        <p class="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
+        <p class="mt-4 colorText">
           {description}
         </p>
 
-        <div class="mt-8 flex flex-wrap justify-center gap-4">
-          <a
-            class="block w-full rounded border px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-            href="#"
-          >
-            Get Started
-          </a>
-
-          <a
-            class="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-            href="#"
-          >
-            Learn More
-          </a>
-        </div>
+        <div class="mt-8 flex flex-wrap gap-4 text-center"></div>
       </div>
     </div>
   </section>
@@ -60,26 +69,16 @@ const {
             class="colorS hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16"
           ></span>
           <div class="p-8 sm:p-16 lg:p-24">
-            <h2 class="colorB text-2xl font-bold sm:text-3xl">{title}</h2>
-            <time class="colorB pr-2">{pubDate}</time>
-            <span
-              class="flex flex-col sm:gap-y-2 md:flex-row md:items-center md:gap-y-0 md:divide-x md:divide-textColor"
-            >
-              {
-                tags.map((item) => (
-                  <span class="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600">
-                    {item}
-                  </span>
-                ))
-              }
-            </span>
-            <p class="colorB mt-4 text-gray-600">
+            <h2 class="text-[#e5e52e] text-2xl font-bold sm:text-3xl">
+              {nomComp}
+            </h2>
+            <p class="colorB mt-4">
               <slot />
             </p>
             <div class="mt-4 mb-4">
               <a
-                class="colorB group relative inline-flex items-center overflow-hidden rounded px-8 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
-                href="https://bellatrix.com.co/"
+                class="colorB group relative inline-flex items-center overflow-hidden rounded px-8 py-3 text-white focus:outline-none focus:ring active:bg-[#e5e52e]"
+                href={link}
               >
                 <span
                   class="absolute -start-full transition-all group-hover:start-4"
@@ -101,8 +100,7 @@ const {
 
                 <span
                   class="text-sm font-medium transition-all group-hover:ms-4"
-                >
-                  Ver pagina
+                  >Ver pagina
                 </span>
               </a>
             </div>
@@ -111,14 +109,85 @@ const {
       </div>
     </div>
   </section>
+
+  <footer class="bg-gray-100 imgbf">
+    <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="flex justify-center text-[#292e3b]">
+        <img src={logo} alt={title} width="300" height="300" />
+      </div>
+
+      <p
+        class="mx-auto mt-6 max-w-md text-center leading-relaxed text-[#292e3b]"
+      >
+        {description}
+      </p>
+
+      <ul class="mt-2 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+        <li>
+          <a class="text-[#292e3b] transition hover:text-[#e5e52e]" href={link}>
+            {titleweb}
+          </a>
+        </li>
+
+        <li>
+          <a
+            class="text-[#292e3b] transition hover:text-[#e5e52e]"
+            href={linkQuines}
+          >
+            Sobre nosotros
+          </a>
+        </li>
+      </ul>
+
+      <!-- Icon redes 📱inicio -->
+      <ul class="mt-10 flex justify-center gap-6 md:gap-8">
+        <li>
+          <a
+            href={face}
+            rel="noreferrer"
+            target="_blank"
+            class="text-gray-700 transition hover:text-[#e5e52e]"
+          >
+            <span class="sr-only">Facebook</span>
+            <FacebookIcon class="h-6 w-6 fill-[#292e3b]" />
+          </a>
+        </li>
+
+        <li>
+          <a
+            href={ins}
+            rel="noreferrer"
+            target="_blank"
+            class="text-gray-700 transition hover:text-[#e5e52e]"
+          >
+            <span class="sr-only">Instagram</span>
+            <InstagramIcon class="h-6 w-6 fill-[#292e3b]" /></a
+          >
+        </li>
+      </ul>
+      <!-- Icon redes📱Final -->
+    </div>
+  </footer>
+  <Footer />
 </Layout>
 
 <style>
+  .imgb {
+    background-image: url(/public/ttten.svg);
+  }
+
+  .imgbf {
+    background-image: url(/public/fonCar.svg);
+  }
+
   .colorS {
-    background-color: #1a1850;
+    background-color: #292e3b;
   }
   .colorT {
-    color: #1a1850;
+    color: #292e3b;
+  }
+  .colorText {
+    color: #292e3b;
   }
   .colorB {
     color: #ffffff;
