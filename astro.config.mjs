@@ -1,14 +1,15 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind'; //Dependecia de Tailwind-👾 
-import react from "@astrojs/react";//Dependecia de React-👾
+import tailwind from '@astrojs/tailwind';
+import react from "@astrojs/react";
 
-// https://astro.build/config
 export default defineConfig({
-    // Cambia USERNAME y REPO_NAME por los tuyos
-  site: 'https://brayanSramos.github.io/Profile/',
-  base: '/Profile/', // Asegura rutas limpias (sin /Mi-Porfolio/)
+  // 👇 Cambia USERNAME y REPO_NAME por los tuyos reales
+  site: 'https://brayansramos.github.io/Profile',
+  base: '/Profile/', // 👈 MUY IMPORTANTE: subcarpeta del repositorio
   output: 'static',
-  integrations: [tailwind(), //Configuracion de Tailwind-👾
-  react(),
-  ]
+  integrations: [
+    tailwind(),
+    react(),
+  ],
+  
 });
