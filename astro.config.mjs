@@ -11,5 +11,4 @@ export default defineConfig({
     tailwind(),
     react(),
   ],
-  
 });
