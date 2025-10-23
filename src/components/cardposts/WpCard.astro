@@ -9,12 +9,15 @@ interface Props {
 
 const { title, avatar, tags, slug } = Astro.props;
 
+// 🔹 Obtenemos la base del sitio (por ejemplo "/Profile/")
+const base = import.meta.env.BASE_URL;
+
 import Layout from "../../layouts/Layout.astro";
 ---
 
 <Layout>
   <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
-    <img alt="" src={avatar} class="h-56 w-full object-cover" />
+    <img alt="" src=src={`${base}${avatar.replace(/^\//, '')}`} class="h-56 w-full object-cover" />
 
     <div class="bg-white p-4 sm:p-6">
       <h3 class="colorT mt-0.5 text-lg text-[#292e3b]">{title}</h3>
@@ -22,7 +25,7 @@ import Layout from "../../layouts/Layout.astro";
       <div class="mt-4 mb-4">
         <a
           class="colorS group relative inline-flex items-center overflow-hidden rounded bg-[#292e3b] px-8 py-3 text-white focus:outline-none focus:ring"
-          href={`/wordpress/${slug}`}
+          href={`${base}wordpress/${slug}`}
         >
           <span class="absolute -start-full transition-all group-hover:start-4">
             <svg
