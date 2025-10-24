@@ -28,7 +28,7 @@ const {
   <section class="relative bg-cover bg-center bg-no-repeat imgb">
     <img
       alt={title}
-      src={imgaPost}
+      src={`${import.meta.env.BASE_URL}${imgaPost.replace(/^\//, '')}`}
       class="absolute inset-0 h-full w-full object-cover"
     />
     <div
@@ -41,7 +41,7 @@ const {
     >
       <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
         <strong class="block font-extrabold colorText"
-          ><img src={logo} alt={nomComp} /></strong
+          ><img src={`${import.meta.env.BASE_URL}${logo.replace(/^\//, '')}`} alt={nomComp} /></strong
         >
         <p class="mt-4 colorText">
           {description}
@@ -59,7 +59,7 @@ const {
           <div class="relative h-64 sm:h-80 lg:h-full rounded border">
             <img
               alt={title}
-              src={imga}
+              src={`${import.meta.env.BASE_URL}${imga.replace(/^\//, '')}`}
               class="absolute inset-0 h-full w-full object-cover"
             />
           </div>
@@ -113,7 +113,7 @@ const {
   <footer class="bg-gray-100 imgbf">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="flex justify-center text-[#292e3b]">
-        <img src={logo} alt={title} width="300" height="300" />
+        <img src={`${import.meta.env.BASE_URL}${logo.replace(/^\//, '')}`} alt={title} width="300" height="300" />
       </div>
 
       <p
