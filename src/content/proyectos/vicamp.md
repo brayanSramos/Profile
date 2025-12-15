@@ -1,5 +1,5 @@
 ---
-title: "BraynSramos"
+title: "braynSramos"
 nomPro: "VICAMP🪴"
 description: "Vicamp es una aplicación diseñada para brindar apoyo al sector agropecuario, facilitando la gestión y optimización de las tareas agrícolas."
 link: "https://github.com/brayanSramos/VICAMP"
@@ -8,6 +8,8 @@ avatar: "https://images.unsplash.com/photo-1559556064-4161b6be179b?q=80&w=1635&a
 image: "@reiseuhu de unsplash.com"
 tags: ["astro", "javascript"]
 layout: "../../layouts/ProyLayout.astro"
+icon: "github"
+button: "GitHub"
 ---
 
 ## Vicamp

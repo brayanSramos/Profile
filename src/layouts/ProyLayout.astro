@@ -4,12 +4,23 @@ import Header from "@components/layout/Header.astro";
 import Footer from "@components/layout/Footer.astro";
 import LinkedinIcon from "@components/icon/Linkedin.astro";
 import InstagramIcon from "@components/icon/Instagram.astro";
-import GithubIcon from "@components/icon/Github.astro";
+import GithubIcon from "@components/icon/iconComponent/icons.astro";
 import TwitterIcon from "@components/icon/Twitter.astro";
 import DiscordIcon from "@components/icon/Discord.astro";
 
 const {
-  content: { title, nomPro, description, link, pubDate, avatar, image, tags },
+  content: {
+    title,
+    nomPro,
+    description,
+    link,
+    pubDate,
+    avatar,
+    image,
+    tags,
+    icon,
+    button,
+  },
 } = Astro.props;
 ---
 
@@ -38,11 +49,11 @@ const {
             <span
               class="absolute -start-full transition-all group-hover:start-4"
             >
-              <GithubIcon class="h-6 w-6" />
+              <GithubIcon name={icon} class="h-6 w-6" />
             </span>
 
             <span class="text-sm font-medium transition-all group-hover:ms-4"
-              >GitHub
+              >{button}
             </span>
           </a>
         </div>
@@ -107,6 +118,6 @@ const {
     background-image: url(/public/fondProy.svg);
   }
   .nombre-Pro {
-        color: initial;
+    color: initial;
   }
 </style>

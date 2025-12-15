@@ -1,5 +1,5 @@
 ---
-title: "BraynSramos"
+title: "braynSramos"
 nomPro: "AgroSys🌱"
 description: "Agrosys es una innovadora app en React Native para Android e iOS, que recopila datos del SIPSA del DANE sobre precios agropecuarios, facilitando decisiones informadas."
 link: "https://github.com/brayanSramos/AgroSys"
@@ -9,6 +9,8 @@ avatar: "https://images.unsplash.com/photo-1560957122-6d2333d76f00?q=80&w=1567&a
 image: "@gardnerjorge de unsplash.com"
 tags: ["React Native", "JavaScript", "CSS", "Tewilnd", "EXPO", "API DANE"]
 layout: "../../layouts/ProyLayout.astro"
+icon: "github"
+button: "GitHub"
 ---
 
 ## Agrosys
