@@ -2,14 +2,14 @@
 title: "braynSramos"
 nomPro: "Responsive Design ✒️"
 description: "En Responsive Design, nos sumergimos en el arte de crear no solo sitios web, sino experiencias digitales cautivadoras."
-link: "https://github.com/brayanSramos/responsivedesign"
+link: "https://responsivedesign-henna.vercel.app/"
 pubDate: 2024-05-07
 avatar: "https://images.unsplash.com/photo-1483817101829-339b08e8d83f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=lewis-kang-ethe-ngugi-f5pTwLHCsAg-unsplash.jpg"
 image: "@ngeshlew de unsplash.com"
 tags: ["Astro", "JavaScript", "HTML", "CSS", "React.js"]
 layout: "../../layouts/ProyLayout.astro"
-icon: "github"
-button: "GitHub"
+icon: "web"
+button: "Preview"
 ---
 
 ## Responsive Design
